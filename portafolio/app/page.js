@@ -1,12 +1,16 @@
+"use client";
+import Particulas from "./components/Particulas";
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-950 text-white">
+      <Particulas />
       <section className="flex flex-col items-center justify-center min-h-screen text-center px-6">
         <p className="text-blue-400 text-sm font-medium tracking-widest uppercase mb-4">
           Disponible para trabajar
         </p>
         <h1 className="text-5xl font-bold mb-4">
-          Hola, soy <span className="text-blue-400">Benjamín</span>
+          Hola, soy <span className="text-blue-400">Benjamín Tagle</span>
         </h1>
         <h2 className="text-2xl text-gray-400 font-medium mb-6">
           Ingeniero en Informática · Desarrollador Fullstack
