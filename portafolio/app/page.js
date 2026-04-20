@@ -59,10 +59,10 @@ export default function Home() {
               <span className="bg-gray-800 text-blue-400 text-xs px-3 py-1 rounded-full">Tailwind</span>
             </div>
             <div className="flex gap-4">
-              <a href="#" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="https://github.com/Benja4200/portafolio" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
                 GitHub →
               </a>
-              <a href="#" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="https://portafolio-xewg.vercel.app/" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
                 Demo →
               </a>
             </div>
