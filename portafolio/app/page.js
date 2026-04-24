@@ -33,7 +33,7 @@ export default function Home() {
       <section id="skills" className="py-24 px-6 max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-12">Stack tecnológico</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {["Next.js", "React", "JavaScript", "Tailwind CSS", "Node.js", "Git", "SQL", "Python"].map((skill) => (
+          {["Next.js", "React", "JavaScript", "TypeScript", "Tailwind CSS", "Node.js", "Git", "SQL"].map((skill) => (
             <div
               key={skill}
               className="bg-gray-900 border border-gray-800 rounded-lg py-4 px-6 text-center text-gray-300 hover:border-blue-500 hover:text-blue-400 transition-colors"
@@ -68,8 +68,26 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-gray-900 border border-gray-800 rounded-xl p-6 border-dashed flex items-center justify-center text-gray-600 text-sm">
-            Próximo proyecto...
+          <div className="bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition-colors">
+            <h3 className="text-xl font-bold mb-2">Dashboard de Monitoreo Financiero & Arbitraje</h3>
+            <p className="text-gray-400 mb-4">
+              Aplicación web fullstack que consume APIs públicas en tiempo real (CoinGecko y Coinbase) para monitorear precios de criptoactivos. Incluye gráficos históricos interactivos con Recharts y calculadora de arbitraje entre exchanges.
+            </p>
+            <div className="flex gap-2 mb-6 flex-wrap">
+              <span className="bg-gray-800 text-blue-400 text-xs px-3 py-1 rounded-full">Next.js</span>
+              <span className="bg-gray-800 text-blue-400 text-xs px-3 py-1 rounded-full">React</span>
+              <span className="bg-gray-800 text-blue-400 text-xs px-3 py-1 rounded-full">TypeScript</span>
+              <span className="bg-gray-800 text-blue-400 text-xs px-3 py-1 rounded-full">Tailwind</span>
+              <span className="bg-gray-800 text-blue-400 text-xs px-3 py-1 rounded-full">Recharts</span>
+            </div>
+            <div className="flex gap-4">
+              <a href="https://github.com/Benja4200/dashboard-financiero" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
+                GitHub →
+              </a>
+              <a href="https://dashboard-financiero-7bwi.vercel.app/" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
+                Demo →
+              </a>
+            </div>
           </div>
 
         </div>
