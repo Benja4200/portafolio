@@ -18,12 +18,15 @@ export default function Home() {
         <p className="text-gray-400 max-w-xl text-lg mb-10">
           Construyo aplicaciones web modernas con Next.js, React y Tailwind.
         </p>
-        <div className="flex gap-4">
+        <div className="flex gap-4 flex-wrap justify-center">
           <a href="#proyectos" className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-medium transition-colors">
             Ver proyectos
           </a>
           <a href="#contacto" className="border border-gray-600 text-gray-300 px-6 py-3 rounded-lg font-medium transition-colors">
             Contacto
+          </a>
+          <a href="/CV.pdf" download className="border border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white px-6 py-3 rounded-lg font-medium transition-colors">
+            Descargar CV
           </a>
         </div>
       </section>
