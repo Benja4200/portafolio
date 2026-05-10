@@ -39,7 +39,7 @@ export default function Home() {
           {["Next.js", "React", "JavaScript", "TypeScript", "Tailwind CSS", "Node.js", "Git", "SQL"].map((skill) => (
             <div
               key={skill}
-              className="bg-gray-900 border border-gray-800 rounded-lg py-4 px-6 text-center text-gray-300 hover:border-blue-500 hover:text-blue-400 transition-colors"
+              className="bg-gray-900 border border-gray-800 rounded-lg py-4 px-6 text-center text-gray-300 hover:border-blue-500 hover:text-blue-400 transition-colors glow-hover"
             >
               {skill}
             </div>
@@ -52,7 +52,7 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-center mb-12">Proyectos</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-          <div className="bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition-colors">
+          <div className="bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition-colors glow-hover">
             <h3 className="text-xl font-bold mb-2">Portafolio personal</h3>
             <p className="text-gray-400 mb-4">
               Sitio web personal construido con Next.js y Tailwind CSS.
@@ -71,7 +71,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition-colors">
+          <div className="bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition-colors glow-hover">
             <h3 className="text-xl font-bold mb-2">Dashboard de Monitoreo Financiero & Arbitraje</h3>
             <p className="text-gray-400 mb-4">
               Aplicación web fullstack que consume APIs públicas en tiempo real (CoinGecko y Coinbase) para monitorear precios de criptoactivos. Incluye gráficos históricos interactivos con Recharts y calculadora de arbitraje entre exchanges.
