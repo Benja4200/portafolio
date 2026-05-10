@@ -9,7 +9,7 @@ export default function Home() {
         <p className="text-blue-400 text-sm font-medium tracking-widest uppercase mb-4">
           Disponible para trabajar
         </p>
-        <h1 className="text-5xl font-bold mb-4">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight">
           Hola, soy <span className="text-blue-400 typing-animation">Benjamin Antonio Tagle Mendoza</span>
         </h1>
         <h2 className="text-2xl text-gray-400 font-medium mb-6">
