@@ -33,17 +33,100 @@ export default function Home() {
 
 
       {/* Skills */}
-      <section id="skills" className="py-24 px-6 max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-12">Stack tecnológico</h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {["Next.js", "React", "JavaScript", "TypeScript", "Tailwind CSS", "Node.js", "Git", "SQL"].map((skill) => (
-            <div
-              key={skill}
-              className="bg-gray-900 border border-gray-800 rounded-lg py-4 px-6 text-center text-gray-300 hover:border-blue-500 hover:text-blue-400 transition-colors glow-hover"
-            >
-              {skill}
+      <section id="skills" className="py-24 px-6 max-w-5xl mx-auto">
+        <h2 className="text-3xl font-bold text-center mb-16">Stack tecnológico</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          
+          {/* Lenguajes */}
+          <div>
+            <h3 className="text-lg font-semibold text-blue-400 mb-4">Lenguajes</h3>
+            <div className="grid grid-cols-2 gap-3">
+              {["PHP", "JavaScript", "HTML5", "CSS3", "SQL"].map((skill) => (
+                <div
+                  key={skill}
+                  className="bg-gray-900 border border-gray-800 rounded-lg py-3 px-4 text-center text-gray-300 hover:border-blue-500 hover:text-blue-400 transition-colors glow-hover text-sm"
+                >
+                  {skill}
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
+
+          {/* Frameworks & Librerías */}
+          <div>
+            <h3 className="text-lg font-semibold text-blue-400 mb-4">Frameworks & Librerías</h3>
+            <div className="grid grid-cols-2 gap-3">
+              {["Laravel", "React", "Next.js", "Bootstrap", "Tailwind CSS", "Spatie", "Signature Pad"].map((skill) => (
+                <div
+                  key={skill}
+                  className="bg-gray-900 border border-gray-800 rounded-lg py-3 px-4 text-center text-gray-300 hover:border-blue-500 hover:text-blue-400 transition-colors glow-hover text-sm"
+                >
+                  {skill}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Base de Datos & Herramientas */}
+          <div>
+            <h3 className="text-lg font-semibold text-blue-400 mb-4">Base de Datos & Herramientas</h3>
+            <div className="grid grid-cols-2 gap-3">
+              {["MySQL", "Firebase", "Git", "GitHub", "XAMPP", "Laragon"].map((skill) => (
+                <div
+                  key={skill}
+                  className="bg-gray-900 border border-gray-800 rounded-lg py-3 px-4 text-center text-gray-300 hover:border-blue-500 hover:text-blue-400 transition-colors glow-hover text-sm"
+                >
+                  {skill}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Conceptos & Patrones */}
+          <div>
+            <h3 className="text-lg font-semibold text-blue-400 mb-4">Conceptos & Patrones</h3>
+            <div className="grid grid-cols-2 gap-3">
+              {["MVC", "CRUD Avanzado", "Soft Deleting", "Roles & Permisos", "RESTful APIs", "TypeScript"].map((skill) => (
+                <div
+                  key={skill}
+                  className="bg-gray-900 border border-gray-800 rounded-lg py-3 px-4 text-center text-gray-300 hover:border-blue-500 hover:text-blue-400 transition-colors glow-hover text-sm"
+                >
+                  {skill}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Metodologías */}
+          <div>
+            <h3 className="text-lg font-semibold text-blue-400 mb-4">Metodologías</h3>
+            <div className="grid grid-cols-2 gap-3">
+              {["SCRUM", "Desarrollo Ágil", "CI/CD", "Vercel"].map((skill) => (
+                <div
+                  key={skill}
+                  className="bg-gray-900 border border-gray-800 rounded-lg py-3 px-4 text-center text-gray-300 hover:border-blue-500 hover:text-blue-400 transition-colors glow-hover text-sm"
+                >
+                  {skill}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Frontend Avanzado */}
+          <div>
+            <h3 className="text-lg font-semibold text-blue-400 mb-4">Frontend Avanzado</h3>
+            <div className="grid grid-cols-2 gap-3">
+              {["Recharts", "Responsive Design", "UI/UX", "Node.js", "Jest", "Vercel"].map((skill) => (
+                <div
+                  key={skill}
+                  className="bg-gray-900 border border-gray-800 rounded-lg py-3 px-4 text-center text-gray-300 hover:border-blue-500 hover:text-blue-400 transition-colors glow-hover text-sm"
+                >
+                  {skill}
+                </div>
+              ))}
+            </div>
+          </div>
+
         </div>
       </section>
 
