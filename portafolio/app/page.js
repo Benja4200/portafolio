@@ -10,7 +10,7 @@ export default function Home() {
           Disponible para trabajar
         </p>
         <h1 className="text-5xl font-bold mb-4">
-          Hola, soy <span className="text-blue-400">Benjamín Tagle</span>
+          Hola, soy <span className="text-blue-400 typing-animation">Benjamin Antonio Tagle Mendoza</span>
         </h1>
         <h2 className="text-2xl text-gray-400 font-medium mb-6">
           Ingeniero en Informática · Desarrollador Fullstack

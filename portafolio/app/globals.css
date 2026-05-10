@@ -65,6 +65,33 @@ body {
   }
 }
 
+/* Animación de escritura (typing) */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  0%, 50% {
+    border-right: 3px solid rgba(59, 130, 246, 1);
+  }
+  51%, 100% {
+    border-right: 3px solid transparent;
+  }
+}
+
+.typing-animation {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid rgba(59, 130, 246, 1);
+  animation: typing 4.5s ease-in-out 0.5s 1 forwards, blink 0.7s infinite 5s;
+}
+
 /* Efecto hover en botones y divs con interactividad */
 a,
 button,
