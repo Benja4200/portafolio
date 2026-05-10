@@ -28,18 +28,26 @@ body {
 /* Efecto de aura de luz */
 .glow-effect {
   position: fixed;
-  width: 600px;
-  height: 600px;
-  margin-left: -300px;
-  margin-top: -300px;
+  width: 400px;
+  height: 400px;
+  margin-left: -200px;
+  margin-top: -200px;
   pointer-events: none;
   z-index: 50;
-  background: radial-gradient(circle, rgba(59, 130, 246, 0.4) 0%, rgba(59, 130, 246, 0.2) 30%, rgba(59, 130, 246, 0.05) 60%, transparent 85%);
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.2) 0%, rgba(59, 130, 246, 0.1) 35%, transparent 70%);
   border-radius: 50%;
-  filter: blur(30px);
-  opacity: 1;
+  filter: blur(35px);
+  opacity: 0;
   mix-blend-mode: screen;
-  box-shadow: 0 0 100px 40px rgba(59, 130, 246, 0.2);
+  transition: opacity 0.2s ease;
+}
+
+.glow-active {
+  opacity: 0.8;
+}
+
+.glow-hidden {
+  opacity: 0;
 }
 
 /* Efecto hover en botones y divs con interactividad */
