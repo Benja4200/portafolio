@@ -176,6 +176,28 @@ export default function Home() {
             </div>
           </div>
 
+          <div className="bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition-colors glow-hover">
+            <h3 className="text-xl font-bold mb-2">Carta Virtual para Bar & Restaurante</h3>
+            <p className="text-gray-400 mb-4">
+              Aplicación web fullstack con menú digital interactivo, panel de administración con CRUD completo y generación de códigos QR por mesa. Incluye autenticación segura, actualizaciones en tiempo real con Supabase Realtime y despliegue en producción.
+            </p>
+            <div className="flex gap-2 mb-6 flex-wrap">
+              <span className="bg-gray-800 text-blue-400 text-xs px-3 py-1 rounded-full">Next.js</span>
+              <span className="bg-gray-800 text-blue-400 text-xs px-3 py-1 rounded-full">React</span>
+              <span className="bg-gray-800 text-blue-400 text-xs px-3 py-1 rounded-full">TypeScript</span>
+              <span className="bg-gray-800 text-blue-400 text-xs px-3 py-1 rounded-full">Tailwind</span>
+              <span className="bg-gray-800 text-blue-400 text-xs px-3 py-1 rounded-full">Supabase</span>
+            </div>
+            <div className="flex gap-4">
+              <a href="https://github.com/Benja4200/Carta-Virtual-Demo" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
+                GitHub →
+              </a>
+              <a href="https://carta-virtual-demo-ihww-rju4oouar.vercel.app/" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
+                Demo →
+              </a>
+            </div>
+          </div>
+
         </div>
       </section>
 
