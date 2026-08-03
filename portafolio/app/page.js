@@ -192,7 +192,7 @@ export default function Home() {
               <a href="https://github.com/Benja4200/Carta-Virtual-Demo" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
                 GitHub →
               </a>
-              <a href="https://carta-virtual-demo-ihww-rju4oouar.vercel.app/" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
+              <a href="https://carta-virtual-demo-ihww.vercel.app/" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
                 Demo →
               </a>
             </div>
