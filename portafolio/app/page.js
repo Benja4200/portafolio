@@ -136,6 +136,26 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
           <div className="bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition-colors glow-hover">
+            <h3 className="text-xl font-bold mb-2">BarberBook · Agenda para barberías</h3>
+            <p className="text-gray-400 mb-4">
+              Plataforma para descubrir servicios y barberos, y reservar turnos en línea de forma rápida.
+            </p>
+            <div className="flex gap-2 mb-6 flex-wrap">
+              <span className="bg-gray-800 text-blue-400 text-xs px-3 py-1 rounded-full">Agenda online</span>
+              <span className="bg-gray-800 text-blue-400 text-xs px-3 py-1 rounded-full">Reservas</span>
+              <span className="bg-gray-800 text-blue-400 text-xs px-3 py-1 rounded-full">Barberías</span>
+            </div>
+            <div className="flex gap-4">
+              <a href="https://github.com/Benja4200/Barber-Book" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
+                GitHub →
+              </a>
+              <a href="https://barber-book-mocha.vercel.app/" className="text-sm text-gray-400 hover:text-blue-400 transition-colors">
+                Demo →
+              </a>
+            </div>
+          </div>
+
+          <div className="bg-gray-900 border border-gray-800 rounded-xl p-6 hover:border-blue-500 transition-colors glow-hover">
             <h3 className="text-xl font-bold mb-2">Portafolio personal</h3>
             <p className="text-gray-400 mb-4">
               Sitio web personal construido con Next.js y Tailwind CSS.
